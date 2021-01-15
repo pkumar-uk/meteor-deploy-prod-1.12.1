@@ -413,6 +413,11 @@ pm2
 ```
 You should see pm2 status.
 
+It is a good idea to put log rotate as well. 
+```
+pm2 install logrotate
+```
+
 We will come back for further configuration of pm2 later.
 
 ## Other install
